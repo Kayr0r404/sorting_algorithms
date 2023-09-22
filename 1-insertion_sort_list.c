@@ -1,10 +1,10 @@
 #include "sort.h"
 /**
- * insertion_sort_list - sort the list using insertion sort/
+ * insertion_sort_list_1 - sort the list using insertion sort/
  * implementation of insertion sort, sorting doubly list
  * @list: input list of integeres
 */
-void insertion_sort_list(listint_t **list)
+void insertion_sort_list_1(listint_t **list)
 {
 	listint_t *curr = *list;
 
@@ -48,4 +48,26 @@ void swap(listint_t *arr)
 	*ptr = curr->next->n;
 	ptr = (int *)&curr->next->n;
 	*ptr = tmp;
+}
+
+/**
+ * insertion_sort_list - sort the list using insertion sort/
+ * implementation of insertion sort, sorting doubly list
+ * @list: input list of integeres
+*/
+void insertion_sort_list(listint_t **list)
+{
+	listint_t *curr = (*list)->next;
+
+	for (; curr; curr = curr->next)
+	{
+		listint_t *tmp = curr;
+
+		while (tmp->prev != NULL && tmp->n < tmp->prev->n)
+		{
+			swap(tmp->prev);
+			print_list(*list);
+			tmp = tmp->prev;
+		}
+	}
 }
