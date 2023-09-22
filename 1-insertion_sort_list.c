@@ -57,8 +57,12 @@ void swap(listint_t *arr)
 */
 void insertion_sort_list(listint_t **list)
 {
-	listint_t *curr = (*list)->next;
+	listint_t *curr;
 
+	if (!list || !(*list))
+		return;
+
+	curr = (*list)->next;
 	for (; curr; curr = curr->next)
 	{
 		listint_t *tmp = curr;
