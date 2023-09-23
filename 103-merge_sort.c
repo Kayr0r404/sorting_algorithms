@@ -37,12 +37,12 @@ void merge_sort(int *array, size_t size)
     /*merge the two arrays into onr array*/
 	merge(left_arr, right_arr, array, mid, size - mid);
 
-	printf("merging...\n");
-	printf("[left]:");
+	printf("Merging...\n");
+	printf("[left]: ");
 	print_array(left_arr, mid);
-	printf("[right]:");
+	printf("[right]: ");
 	print_array(right_arr, size - mid);
-	printf("[Done]:");
+	printf("[Done]: ");
 	print_array(array, size);
 
 	free(left_arr);
