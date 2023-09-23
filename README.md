@@ -18,8 +18,9 @@ https://youtu.be/D6xkbGLQesk?si=DRKpJpalWKbJawIV9
 [![](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/in/karabo-mahlare/)
 <!-- [![](https://fontawesome.com/icons/github?style=brands)Mahlare Karabo](https://github.com/Kayr0r404) -->
 
-[Lwazi Luthuli]
-https://www.linkedin.com/in/lwazi-luthuli-b6066a91
+[Lwazi Luthuli](https://github.com/LwaziMashiza)
+[![](https://i.stack.imgur.com/gVE0j.png) LinkedIn](https://www.linkedin.com/in/lwazi-luthuli-b6066a91/)
+
 
 Start Date: 20 September 2023
 End date: 27 September 2023
