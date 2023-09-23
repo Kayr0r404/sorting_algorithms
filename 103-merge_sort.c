@@ -32,11 +32,12 @@ void merge_sort(int *array, size_t size)
 
 	/*call the function/ recurse, first the left then right*/
 	merge_sort(left_arr, mid);
-	printf("merging...\n");
 	merge_sort(right_arr, size - mid);
 
+    /*merge the two arrays into onr array*/
 	merge(left_arr, right_arr, array, mid, size - mid);
 
+	printf("merging...\n");
 	printf("[left]:");
 	print_array(left_arr, mid);
 	printf("[right]:");
