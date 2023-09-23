@@ -7,6 +7,11 @@ In this project the following objectives must be achieved:
 3. How to select the best sorting algorithm for a given input
 4. What is a stable sorting algorithm
 
+Below is a video link which explain sorting algorithms:
+https://youtu.be/RfXt_qHDEPw?si=MxFif9-QX3YLAsIp
+
+Below is a video link on the big O notation:
+https://youtu.be/D6xkbGLQesk?si=DRKpJpalWKbJawIV9
 ## AUTHOURS
 [![](https://fontawesome.com/icons/github?style=brands)Mahlare Karabo](https://github.com/Kayr0r404)
 <br>
