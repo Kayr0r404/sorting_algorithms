@@ -34,9 +34,12 @@ void counting_sort(int *array, size_t size);
 void merge_sort(int *array, size_t size);
 void merge(int *left_arr, int *right_arr, int *main_arr, size_t l_size, size_t r_size);
 void heap_sort(int *array, size_t size);
+void create_max_heap(int *arr, int n, size_t size);
+void heapify(int *arr, int i, int n, size_t size);
 void radix_sort(int *array, size_t size);
 void bitonic_sort(int *array, size_t size);
 void quick_sort_hoare(int *array, size_t size);
 void insertion_sort_list_1(listint_t **list);
+void swap_ints(int *a, int *b);
 
 #endif /*SORT_H*/
