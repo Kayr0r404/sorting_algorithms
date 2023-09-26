@@ -81,7 +81,7 @@ void heap_sort(int *A, size_t size)
     create_max_heap(A, n, size);
     /* One by one extract an element from heap*/
     /*and get the sorted array*/
-    for (i = n - 1; i > 0; i--)
+    for (i = n - 1; i >  0; i--)
     {
         int modified = 0; /* Initialize modified flag*/
         /* Move top root element to end element*/
