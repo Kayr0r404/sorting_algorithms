@@ -32,7 +32,8 @@ void shell_sort(int *array, size_t size);
 void cocktail_sort_list(listint_t **list);
 void counting_sort(int *array, size_t size);
 void merge_sort(int *array, size_t size);
-void merge(int *left_arr, int *right_arr, int *main_arr, size_t l_size, size_t r_size);
+void merge(int *left_arr, int *right_arr,
+int *main_arr, size_t l_size, size_t r_size);
 void heap_sort(int *array, size_t size);
 void create_max_heap(int *arr, int n, size_t size);
 void swap_ints(int *a, int *b);
