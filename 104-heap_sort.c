@@ -1,12 +1,12 @@
 #include "sort.h"
 
 /**
- * swap_ints - Swapping numbers using call by reference
+ * swap_int - Swapping numbers using call by reference
  * @x: input int
  * @y: input int
  * @modified: pointer to a flag indicating if the array has been modified
  */
-void swap_ints(int *x, int *y, int *modified)
+void swap_int(int *x, int *y, int *modified)
 {
 	int temp = *x;
 
@@ -41,7 +41,7 @@ void heapify(int *A, int n, int i, size_t size, int *modified)
 	if (largest != i)
 	{
 		/*swap A[i] with A[largest]*/
-		swap_ints(&A[i], &A[largest], modified);
+		swap_int(&A[i], &A[largest], modified);
 		if (*modified)
 		{
 			print_array(A, size); /* Print the array if modified*/
@@ -88,7 +88,7 @@ void heap_sort(int *A, size_t size)
 		int modified = 0; /* Initialize modified flag*/
 
 		/* Move top root element to end element*/
-		swap_ints(&A[0], &A[i], &modified);
+		swap_int(&A[0], &A[i], &modified);
 		if (modified)
 		{
 			print_array(A, size); /* Print the array if modified*/
